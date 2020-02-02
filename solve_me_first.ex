@@ -5,7 +5,7 @@ defmodule Solution do
     |> String.to_integer()
   end
 
-  def sum do
+  def sum() do
     a = read_input()
     b = read_input()
     IO.puts a + b
