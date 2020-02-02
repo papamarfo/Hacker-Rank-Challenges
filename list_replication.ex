@@ -1,7 +1,7 @@
 defmodule Solution do
     def read_input() do
         IO.read(:all)
-        |> String.split([" ", "\n"])
+        |> String.split()
     end
 
     def replicate() do
