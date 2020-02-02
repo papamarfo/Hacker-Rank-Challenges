@@ -8,7 +8,7 @@ defmodule Solution do
     def message() do
         n = read_input()
 
-        for _n <- 1..n do
+        for _ <- 1..n do
             IO.puts "Hello World"
         end
     end
