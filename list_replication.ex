@@ -8,9 +8,7 @@ defmodule Solution do
         [count | list] = read_input()
         {count, _} = Integer.parse(count)
 
-        Enum.map(list, 
-        	fn n -> for _ <- 1..count, do: IO.puts(n) end
-        )
+        Enum.map(list, fn n -> for _ <- 1..count, do: IO.puts(n) end)
     end
 end
 
